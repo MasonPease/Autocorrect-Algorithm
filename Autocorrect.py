@@ -98,6 +98,8 @@ class Autocorrect:
                 closest_word = dict_word
         return closest_word if closest_word is not None else word
 
+
+
 dictionary = trie.collect_words()
 
 autocorrect = Autocorrect(dictionary)
